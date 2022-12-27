@@ -4,22 +4,17 @@ public class TestArray {
 
     @Test
     public void checkArray(){
-//        String name = "Nikaka Dimenshions";
-  //      for (int i = 0; i < name.length(); i++){
-    //        System.out.println(name.charAt(i));
-
-        //        int[] nums = {53,5,76,2,122,33,9,33};
-//        for(int elements : nums){
-//            System.out.println(elements);
-
- //       int[] arr = {20, 21, 36, 99, 12};{
-   //         System.out.println(arr[0]);
-        int arrDef[] = new int[12];{
-        arrDef[1] = 33;{
-                System.out.println(arrDef[1]);
+        for(int i = 1; i <= 100; i ++){
+            if(i % 15 == 0){
+                System.out.println("FizzBuzz");
+            }else if(i % 3 == 0){
+                System.out.println("Fizz");
+            }else if(i % 5 == 0){
+                System.out.println("Buzz");
+            }else{
+                System.out.println(i);
             }
-
         }
-
     }
+
 }
