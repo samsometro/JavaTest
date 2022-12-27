@@ -5,6 +5,7 @@ public class StringContatination {
     public void TestSimpleString(){
         String sourceStr = "Hello! My name is Nikita";
         String secondStr = " Dementiev";
+        String email = "samsometro@gmail.com";
         int age = 35;
         double weight = 60.5D;
 
@@ -17,6 +18,8 @@ public class StringContatination {
         for(String word : splitted){
             System.out.println(word);
         }
+        String[] emailSplitter = email.split("@");
+        System.out.println(emailSplitter[0]);
 
     }
 }
