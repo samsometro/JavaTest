@@ -12,7 +12,7 @@ public class StringContatination {
 //        System.out.println(sourceStr + secondStr + (age + weight));
 
         for(int i = sourceStr.length()-1; i >= 0; i --){
-//            System.out.print(sourceStr.charAt(i));
+            System.out.print(sourceStr.charAt(i));
         }
         String[] splitted = sourceStr.split(" ");
         for(String word : splitted){
